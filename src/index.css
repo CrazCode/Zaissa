@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-active: #5b05d4;
+  --color-inactive: #052ed419;
+}

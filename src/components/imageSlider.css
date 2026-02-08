@@ -1,0 +1,53 @@
+.slider-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.tech-logos-container {
+    position: absolute;
+}
+
+.animate-slides {
+    width: 100%;
+    height: 620px;
+    animation: slides 49s ease-in-out infinite;
+}
+
+.slider-dots-container {
+    width: 320px;
+    height: 60px;
+    background: #052ed419;
+    border-radius: 9999px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.slider-dots-container .dot {
+    width: 28px;
+    height: 28px;
+    background: var(--color-inactive);
+    border-radius: 100px;
+}
+
+.active-dot {
+    background: var(--color-active);
+}
+
+@keyframes slides {
+    0% { background: url('./src/assets/images/apple-pc.jpg');}
+    14.3% { background: url('./src/assets/images/earpods.jpg');}
+    28.6% { background: url('./src/assets/images/earpods2.jpg');}
+    42.9% { background: url('./src/assets/images/gaming-console.jpg');}
+    57.2% { background: url('./src/assets/images/headphones.jpg');}
+    71.5% { background: url('./src/assets/images/iphones.jpg');}
+    85.8% { background: url('./src/assets/images/mobile.jpg');}
+    100% { background: url('./src/assets/images/apple-pc.jpg');}
+}

@@ -1,0 +1,48 @@
+.main-container {
+    width: 97%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 4px;
+}
+
+.section-name {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Audiowide', cursive;
+    background-color: #780ac726;
+    font-size: x-large;
+    border-radius: 0px 8px 8px 0px;
+    text-align: left;
+    padding: 40px 20px;
+    gap: 20px;
+    line-height: 0;
+}
+
+.section-name h1 {
+    color: #3200bc;
+    font-size: 5xl;
+    display: block;
+}
+
+.section-name p {
+    color: #26a5ff;
+    font-size: 2xl;
+    display: block;
+}
+
+.card-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: #5d08d3;
+    border-radius: 0 30px 16px 16px;
+    padding: 20px;
+    gap: 20px;
+}

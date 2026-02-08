@@ -1,0 +1,15 @@
+.home-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.products-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
